@@ -1,0 +1,141 @@
+hr{
+	width: 15%;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid #fff;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+h1{
+	display: block;
+	margin-right: auto;
+}
+@font-face {
+    font-family: DD;
+    src: url(Digital-Desolation.ttf);
+}
+body{
+	background: #383838;
+}
+div.timer{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: white;
+}
+ul{
+	list-style-type: none;
+}
+nav{
+	height: 110px;
+	color: #ffffff;
+	background: grey;
+	font-size: 25px;
+	border: 3px solid #ff0000;
+	text-decoration: none;
+	width: 100%;
+}
+span.title{
+	font-family: DD;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+img.img{
+	display: inline-block;
+	height: 70px;
+	width: 75px;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align: middle;
+}
+body {
+	width: 100%;
+	margin: auto;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.container2 {
+	width: 960px;
+	margin: 0 auto;
+}
+.header {
+	background: #383838;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	border-bottom: 3px solid #ff0000;
+}
+
+.logo {
+	float: left;
+	font-family: DD;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+li {
+	float: left;
+	margin-left: 15px;
+	padding-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+.nav {
+	float: right;
+}
+
+.footer {
+	background: #383838;
+	width: 100%;
+	top: 0;
+	border-top: 3px solid #ff0000;
+}
+.footertext{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+.title-howto{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.block{
+	border: 3px solid #ff0000;
+    width: 900px;
+    height: 575px;
+}
+ol {
+	margin-left: 0px;
+	padding-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+ol.subtitle {
+	margin-left: 300px;
+	padding-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+ol.subsubtitle {
+	padding-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: white;
+}
