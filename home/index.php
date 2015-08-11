@@ -1,11 +1,4 @@
-<?php
-session_start();	
-include ('../steamauth/userInfo.php'); //To access the $steamprofile array  
-?>
-<?php
-require '../steamauth/steamauth.php';
-?>
-<!doctype>
+<!DOCTYPE html>
 <html>
 <head>
 <title>CS:GO Rollers | Home</title>
@@ -31,16 +24,7 @@ require '../steamauth/steamauth.php';
 					<li><a href="http://csgorollers.com/">Home</a></li>
 					<li><a href="http://csgorollers.com/about">About</a></li>
 					<li><a href="http://csgorollers.com/howto">How to Play</a></li>
-					<li><a style="font-weight:bold;">
-					<?php
-						if(empty($_SESSION['steamid'])) {
-							steamlogin();
-						} else {
-							echo "".$_SESSION['steamid'].", ".$steamprofile['personaname']."";
-							header('Location: index.php');
-						}
-					?>
-					</a>
+					<li><a style="font-weight:bold;">Sign In</a>
 					</li>
 				</ul>
 			</div>

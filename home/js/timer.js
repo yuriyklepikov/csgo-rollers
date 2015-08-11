@@ -16,7 +16,7 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-    var fiveMinutes = 45,
+    var fiveMinutes = 999,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
 };
